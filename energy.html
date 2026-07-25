@@ -7,8 +7,8 @@
 <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-<nav class="nav" id="nav"><div class="nav-inner"><a class="nav-logo" href="index.html"><img src="logo.png" alt="Alosanar"/></a><ul class="nav-links"><li><a href="index.html">Home</a></li><li><a href="marketplace.html">Marketplace</a></li><li><a href="energy.html" class="active">Energy</a></li><li><a href="services.html">Services</a></li><li><a href="operations.html">Operations</a></li><li><a href="about.html">About</a></li></ul><button class="nav-burger" id="burger" aria-label="Menu"><span></span><span></span><span></span></button></div></nav>
-<div class="nav-mob" id="mob"><a href="index.html">Home</a><a href="marketplace.html">Marketplace</a><a href="energy.html" class="active">Energy</a><a href="services.html">Services</a><a href="operations.html">Operations</a><a href="about.html">About</a></div>
+<nav class="nav" id="nav"><div class="nav-inner"><a class="nav-logo" href="index.html"><img src="logo.png" alt="Alosanar"/></a><ul class="nav-links"><li><a href="index.html">Home</a></li><li><a href="energy.html" class="active">Energy</a></li><li><a href="tenants.html">Tenants</a></li><li><a href="properties.html">Properties</a></li><li><a href="about.html">About</a></li></ul><button class="nav-burger" id="burger" aria-label="Menu"><span></span><span></span><span></span></button></div></nav>
+<div class="nav-mob" id="mob"><a href="index.html">Home</a><a href="energy.html" class="active">Energy</a><a href="tenants.html">Tenants</a><a href="properties.html">Properties</a><a href="about.html">About</a></div>
 
 <section class="hero" style="min-height:420px;height:56vh;max-height:520px">
   <div class="hero-bg"><img src="energy_clean_grid.png" alt="" style="object-position:center 50%"/></div>
@@ -21,14 +21,14 @@
 <div class="wrap">
   <div class="sect">
     <div class="body-text" style="max-width:1020px;font-size:17px;line-height:1.86;color:#c7d6e4">
-      <p>The well publicized energy concerns stemming from data center demands leave out a very big mitigating factor. While there are energy constraints for some greenfield projects and projects with very specific location requirements, the reality is there are gigawatts worth of available power scattered about in disparate buildings and properties throughout the US and the world. This includes both immediate connectivity and available grid capacity that is untapped.</p>
-      <p style="margin-top:14px">We have assembled a large and growing portfolio of properties through site rights, referrals, lease or purchase that provide access to this available capacity.</p>
+      <p>The well-publicized energy concerns surrounding data center demand often overlook a significant mitigating factor. While some greenfield developments and projects with highly specific location requirements face legitimate power constraints, there are, in reality, gigawatts of available capacity distributed across existing commercial buildings and properties throughout the United States and around the world. This capacity includes existing utility interconnections, untapped grid availability, and opportunities to augment available power through on-site generation and hybrid energy solutions.</p>
+      <p style="margin-top:14px">Alosanar has assembled a large and growing portfolio of properties through site rights, referrals, lease opportunities, and acquisitions that provide access to this diverse and often overlooked capacity.</p>
     </div>
   </div>
 </div>
 
 <hr class="divider"/>
-<footer><div class="foot"><span class="foot-copy">© 2026, Alosanar. All Rights Reserved.</span><ul class="foot-links"><li><a href="index.html">Home</a></li><li><a href="marketplace.html">Marketplace</a></li><li><a href="services.html">Services</a></li><li><a href="operations.html">Operations</a></li><li><a href="about.html">About</a></li></ul></div></footer>
+<footer><div class="foot"><span class="foot-copy">© 2026, Alosanar. All Rights Reserved.</span><ul class="foot-links"><li><a href="index.html">Home</a></li><li><a href="energy.html">Energy</a></li><li><a href="tenants.html">Tenants</a></li><li><a href="properties.html">Properties</a></li><li><a href="about.html">About</a></li></ul></div></footer>
 <script>const nav=document.getElementById('nav'),burger=document.getElementById('burger'),mob=document.getElementById('mob');let lastScroll=0;window.addEventListener('scroll',()=>{const s=window.scrollY;nav.classList.toggle('scrolled',s>20);if(s>lastScroll&&s>80){nav.classList.add('hidden')}else{nav.classList.remove('hidden')}lastScroll=s;});burger.addEventListener('click',()=>mob.classList.toggle('open'));</script>
 </body>
 </html>

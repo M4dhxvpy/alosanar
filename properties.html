@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Properties | Alosanar</title>
+<link rel="stylesheet" href="style.css"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<style>
+.material-symbols-outlined{font-variation-settings:'FILL' 0,'wght' 300,'GRAD' 0,'opsz' 24}
+.block{padding:44px 0;border-bottom:1px solid var(--border)}
+.block:last-child{border-bottom:0}
+.block-title{font-size:clamp(1.4rem,2.4vw,2rem);font-weight:400;letter-spacing:-.02em;line-height:1.2;color:var(--text);margin:8px 0 18px}
+.lead{font-size:16px;font-weight:300;color:var(--text2);line-height:1.8;max-width:920px}
+.lead+.lead{margin-top:14px}
+.intro-title{font-size:clamp(1.7rem,3vw,2.4rem);font-weight:400;letter-spacing:-.02em;line-height:1.18;color:var(--text);margin-bottom:14px}
+.bridge{display:grid;grid-template-columns:1fr auto 1fr auto 1fr;gap:14px;align-items:stretch;margin-top:24px}
+.bcard{background:var(--surf);border:1px solid var(--border);border-radius:12px;padding:22px;transition:border-color .35s ease,background .35s ease}
+.bcard:hover{border-color:rgba(95,168,255,.5);background:rgba(95,168,255,.08)}
+.btag{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--accent);font-weight:500;margin-bottom:8px}
+.bcard p{font-size:13.5px;color:var(--text2);line-height:1.6}
+.barrow{display:flex;align-items:center;justify-content:center;color:var(--accent);font-size:24px}
+.callout{margin-top:22px;border:1px solid rgba(95,168,255,.5);background:rgba(95,168,255,.08);border-radius:10px;padding:16px 20px;font-size:14.5px;color:var(--text);font-weight:400;line-height:1.6}
+.stages{display:flex;flex-wrap:wrap;gap:12px;margin-top:20px}
+.stage{flex:1;min-width:172px;background:var(--surf);border:1px solid var(--border);border-radius:10px;padding:16px 18px}
+.stage b{display:block;color:var(--accent);font-size:13px;margin-bottom:5px;font-weight:600}
+.stage span{font-size:13px;color:var(--text2);line-height:1.5}
+.chips{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:22px}
+.chip{background:var(--surf);border:1px solid var(--border);border-radius:10px;padding:14px 16px;display:flex;align-items:center;gap:10px;font-size:13px;color:var(--text2)}
+.chip .material-symbols-outlined{color:#adc6ff;font-size:20px}
+.why{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--border);border:1px solid var(--border);border-radius:14px;overflow:hidden;margin-top:22px}
+.why-cell{background:var(--surf);padding:24px}
+.why-cell:hover{background:var(--surf2)}
+.why-cell p{font-size:13.5px;color:var(--text2);line-height:1.6}
+@media(max-width:900px){
+  .bridge{grid-template-columns:1fr}
+  .barrow{transform:rotate(90deg);padding:4px 0}
+  .chips{grid-template-columns:1fr 1fr}
+  .why{grid-template-columns:1fr}
+}
+@media(max-width:560px){.chips{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<nav class="nav" id="nav"><div class="nav-inner"><a class="nav-logo" href="index.html"><img src="logo.png" alt="Alosanar"/></a><ul class="nav-links"><li><a href="index.html">Home</a></li><li><a href="energy.html">Energy</a></li><li><a href="tenants.html">Tenants</a></li><li><a href="properties.html" class="active">Properties</a></li><li><a href="about.html">About</a></li></ul><button class="nav-burger" id="burger" aria-label="Menu"><span></span><span></span><span></span></button></div></nav>
+<div class="nav-mob" id="mob"><a href="index.html">Home</a><a href="energy.html">Energy</a><a href="tenants.html">Tenants</a><a href="properties.html" class="active">Properties</a><a href="about.html">About</a></div>
+
+<section class="hero" style="min-height:420px;height:56vh;max-height:520px">
+  <div class="hero-bg"><img src="hero_properties.jpg" alt="" style="object-position:center 50%"/></div>
+  <div class="hero-content">
+    <h1>Properties</h1>
+  </div>
+</section>
+
+<hr class="divider"/>
+
+<div class="wrap">
+  <div class="block">
+    <div class="intro-title">Unlock the Value of Data Center Demand</div>
+    <p class="lead">Participate in the data center economy while maintaining your focus on creating long-term value as an institutional real estate owner.</p>
+  </div>
+
+  <div class="block">
+    <div class="label">Disconnect</div>
+    <div class="block-title">The Disconnect</div>
+    <p class="lead">Commercial real estate already offers many of the characteristics the data center industry needs: power, strategic locations, and existing buildings. Yet relatively few commercial properties become data centers because tenants need confidence that those assets can meet the industry's rigorous technical, operational, and commercial requirements. Alosanar provides that confidence by combining commercial real estate expertise with deep data center experience and a governed ecosystem of specialized partners.</p>
+    <div class="bridge">
+      <div class="bcard"><div class="btag">Commercial Real Estate</div><p>Power, strategic locations, existing buildings, and long-term ownership.</p></div>
+      <div class="barrow"><span class="material-symbols-outlined">arrow_forward</span></div>
+      <div class="bcard mid"><div class="btag">Alosanar — The Bridge</div><p>Governance, technical validation, commercial origination, and a coordinated ecosystem that transforms real estate opportunities into data center projects.</p></div>
+      <div class="barrow"><span class="material-symbols-outlined">arrow_forward</span></div>
+      <div class="bcard"><div class="btag">Data Center Industry</div><p>Requires specialized technical standards, operational certainty, and experienced delivery partners before committing long-term capacity.</p></div>
+    </div>
+    <div class="callout">Alosanar gives data center tenants the confidence to deploy by providing the technical validation, governance, and specialized ecosystem required for successful delivery and long-term operations.</div>
+  </div>
+
+  <div class="block">
+    <div class="label">Owner</div>
+    <div class="block-title">You Stay the Owner</div>
+    <p class="lead">Institutional owners remain focused on owning, leasing, and managing real estate. Alosanar serves as the strategic operating partner, governing the specialized resources required to unlock data center opportunities while the owner maintains the lease relationship and rental income.</p>
+    <p class="lead">Alosanar provides governance across the complete data center lifecycle:</p>
+    <div class="stages">
+      <div class="stage"><b>Validate</b><span>Technical and commercial site qualification</span></div>
+      <div class="stage"><b>Originate</b><span>Tenant engagement &amp; commercial alignment</span></div>
+      <div class="stage"><b>Develop</b><span>Engineering, construction, utilities, commissioning &amp; coordination</span></div>
+      <div class="stage"><b>Operate</b><span>Long-term operational governance</span></div>
+      <div class="stage"><b>Maximize</b><span>Optimize lease economics, flexibility &amp; portfolio value</span></div>
+    </div>
+  </div>
+
+  <div class="block">
+    <div class="label">Model</div>
+    <div class="block-title">A Different Operating Model</div>
+    <p class="lead">Rather than relying on a single organization's internal capabilities, Alosanar governs a retained ecosystem of specialized partners selected specifically for each opportunity.</p>
+    <div class="chips">
+      <div class="chip"><span class="material-symbols-outlined">payments</span>Capital</div>
+      <div class="chip"><span class="material-symbols-outlined">engineering</span>Engineering</div>
+      <div class="chip"><span class="material-symbols-outlined">architecture</span>Design &amp; Construction</div>
+      <div class="chip"><span class="material-symbols-outlined">dns</span>Grey Space Integration</div>
+      <div class="chip"><span class="material-symbols-outlined">bolt</span>Energy Infrastructure</div>
+      <div class="chip"><span class="material-symbols-outlined">cell_tower</span>Telecommunications</div>
+      <div class="chip"><span class="material-symbols-outlined">shield</span>Governance &amp; Cybersecurity</div>
+      <div class="chip"><span class="material-symbols-outlined">task_alt</span>Commissioning</div>
+      <div class="chip"><span class="material-symbols-outlined">settings_suggest</span>Operations</div>
+    </div>
+    <div class="callout">One accountable operating partner. Best-fit specialists for every project.</div>
+  </div>
+
+  <div class="block">
+    <div class="label">Alosanar</div>
+    <div class="block-title">Why Owners Choose Alosanar</div>
+    <div class="why">
+      <div class="why-cell"><div class="btag">Remain an Institutional Owner</div><p>Participate in AI infrastructure without becoming a data center developer or operator.</p></div>
+      <div class="why-cell"><div class="btag">Unlock New Revenue</div><p>Commercialize AI-ready opportunities across existing portfolios while retaining ownership.</p></div>
+      <div class="why-cell"><div class="btag">Reduce Execution Risk</div><p>One governed operating relationship coordinating specialized partners across the full project lifecycle.</p></div>
+      <div class="why-cell"><div class="btag">Preserve Long-Term Asset Value</div><p>Maintain leasing flexibility while enhancing the long-term value and strategic relevance of institutional real estate.</p></div>
+    </div>
+  </div>
+</div>
+
+<hr class="divider"/>
+<footer><div class="foot"><span class="foot-copy">© 2026, Alosanar. All Rights Reserved.</span><ul class="foot-links"><li><a href="index.html">Home</a></li><li><a href="energy.html">Energy</a></li><li><a href="tenants.html">Tenants</a></li><li><a href="properties.html">Properties</a></li><li><a href="about.html">About</a></li></ul></div></footer>
+<script>const nav=document.getElementById('nav'),burger=document.getElementById('burger'),mob=document.getElementById('mob');let lastScroll=0;window.addEventListener('scroll',()=>{const s=window.scrollY;nav.classList.toggle('scrolled',s>20);if(s>lastScroll&&s>80){nav.classList.add('hidden')}else{nav.classList.remove('hidden')}lastScroll=s;});burger.addEventListener('click',()=>mob.classList.toggle('open'));</script>
+</body>
+</html>
